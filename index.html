@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Birthday Wish</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Happy Birthday!</h1>
+        </header>
+        <section class="content">
+            <div class="gallery">
+                <!-- Replace these with actual images of her -->
+                <img src="picture1.jpg" alt="Birthday Picture 1">
+                <img src="picture2.jpg" alt="Birthday Picture 2">
+                <img src="picture3.jpg" alt="Birthday Picture 3">
+            </div>
+            <div class="quote">
+                <p>Wishing you a day filled with love and joy! 🎉</p>
+            </div>
+        </section>
+        <footer>
+            <button id="showPopup">Click here for a special message!</button>
+        </footer>
+    </div>
+    
+    <!-- Pop-up Dialog -->
+    <div id="popup" class="popup">
+        <div class="popup-content">
+            <span class="close">&times;</span>
+            <h2>Special Birthday Message!</h2>
+            <p>Happy Birthday! 🎂 May your day be filled with laughter, joy, and wonderful surprises!</p>
+            <p class="sorry">Sorry for using your pictures without permission. Hope you like the page!</p>
+        </div>
+    </div>
+
+    <!-- Background Music -->
+    <audio id="backgroundMusic" src="birthday-song.mp3" loop></audio>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
